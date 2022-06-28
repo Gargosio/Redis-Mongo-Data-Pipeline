@@ -55,4 +55,4 @@ def insertData():
    
 if __name__ == '__main__':
     insertData()
-    time.sleep(12000)
+    time.sleep(90000)
