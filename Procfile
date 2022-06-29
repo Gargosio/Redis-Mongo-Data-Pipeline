@@ -1,2 +1,1 @@
-web: sh main.sh
-#this is a comment
+worker: python mongoetl2.py --log-file -
