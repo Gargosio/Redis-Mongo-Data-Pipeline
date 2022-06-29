@@ -1,1 +1,1 @@
-worker: python mongoetl2.py --log-file -
+web: sh main.sh
