@@ -1,1 +1,1 @@
-python main.py
+python mongoetl2.py
