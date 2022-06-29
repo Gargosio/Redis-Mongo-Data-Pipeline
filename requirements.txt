@@ -4,4 +4,4 @@ hiredis
 redis
 redis-om
 types-redis
-pymongo
+pymongo[srv]
