@@ -13,20 +13,20 @@ import time
 #from pymongo_test_insert import get_database
 ################
 
-CONNECTION_STRING = "mongodb+srv://toloo:Godocholoo@cluster0.idj1r.mongodb.net/test"
-#"mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/myFirstDatabase"
+CONNECTION_STRING = "**************************************************"
+
 
 rc = redis.Redis(
-    host="redis-15365.c277.us-east-1-3.ec2.cloud.redislabs.com",
+    host="***************88888888****************",
     charset="utf-8",
     decode_responses=True,
-    port=15365,
-    password="ruqK6OVaQpYajpp1glVruZYZdTHQfMlq")
+    port=15***8,
+    password="************************************")
 
 
 client = MongoClient(CONNECTION_STRING)
-dbname = client['iotdatadb']
-collection_name = dbname["iotdatacoll"]
+dbname = client['datadb']
+collection_name = dbname["datacoll"]
 
 def insertData():
     #Fetching from db
